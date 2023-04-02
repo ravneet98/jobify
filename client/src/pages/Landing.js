@@ -22,10 +22,10 @@ const Landing = () => {
               job <span>tracking</span> app
             </h1>
             <p>
-              I'm baby wayfarers hoodie next level taiyaki brooklyn cliche blue
-              bottle single-origin coffee chia. Aesthetic post-ironic venmo,
-              quinoa lo-fi tote bag adaptogen everyday carry meggings +1 brunch
-              narwhal.
+              Welcome to our jobify! Find your next career opportunity by
+              searching our constantly updated job board. Set up job alerts and
+              access valuable resources to make your job search a success. Start
+              exploring today!
             </p>
             <Link to='/register' className='btn btn-hero'>
               Login/Register

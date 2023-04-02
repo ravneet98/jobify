@@ -168,12 +168,11 @@ const AppProvider = ({ children }) => {
       });
       addUserToLocalStorage({ user, token, location });
     } catch (error) {
-      if (error.response.status !== 401) {
-        dispatch({
-          type: SETUP_USER_ERROR,
-          payload: { msg: error.response.data.msg },
-        });
-      }
+      console.log("error");
+      dispatch({
+        type: SETUP_USER_ERROR,
+        payload: { msg: error.response.data.msg },
+      });
     }
     clearAlert();
   };
